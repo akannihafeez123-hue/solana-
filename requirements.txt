@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+flask
+requests
+python-telegram-bot==13.7
+yfinance
+python-dotenv
+python-dateutil
+scikit-learn
+aiohttp
+gunicorn
