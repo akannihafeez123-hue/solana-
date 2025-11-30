@@ -1,0 +1,7 @@
+# Minimal Dependencies for Choreo Build
+flask==2.3.3
+python-dotenv==1.0.0
+
+# Compatible versions to avoid binary issues
+numpy==1.21.6
+pandas==1.3.5
