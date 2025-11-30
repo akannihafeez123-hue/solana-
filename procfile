@@ -1,5 +1,0 @@
-web: gunicorn --bind 0.0.0.0:$PORT --workers 2 --timeout 120 --log-level info app:app
-
-# Alternative with worker process
-# web: gunicorn --bind 0.0.0.0:$PORT --workers 2 --threads 4 --timeout 120 app:app
-# worker: python app.py --scan
