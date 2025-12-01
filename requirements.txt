@@ -1,8 +1,0 @@
-flask==3.0.0
-numpy==1.26.0
-pandas==2.1.1
-yfinance==0.2.31
-python-dotenv==1.0.0
-python-telegram-bot==20.7
-tensorflow==2.14.0
-scikit-learn==1.3.2
