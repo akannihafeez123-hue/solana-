@@ -1,0 +1,11 @@
+# Core dependencies (REQUIRED)
+numpy==1.26.4
+pandas==2.2.0
+Flask==3.0.0
+requests==2.31.0
+scipy==1.11.4
+
+# Optional Telegram support
+python-telegram-bot==20.7
+python-dotenv==1.0.0
+pytz==2023.3
