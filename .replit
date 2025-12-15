@@ -1,0 +1,2 @@
+language = "python3"
+entrypoint = "ultimate_bot_v5_complete.py"
