@@ -1,0 +1,15 @@
+name = "quantum-trading-bot"
+main = "index.js"
+compatibility_date = "2025-01-15"
+
+[vars]
+DEFAULT_TRADING_MODE = "quantum"
+BASE_CONFIDENCE_THRESHOLD = "85"
+TELEGRAM_MIN_CONFIDENCE = "90"
+TELEGRAM_COOLDOWN_MINUTES = "5"
+SCAN_INTERVAL_SEC = "30"
+KEEPALIVE_URL = ""
+
+[triggers]
+# Run every 5 minutes during active market hours
+crons = ["*/5 * * * *"]
