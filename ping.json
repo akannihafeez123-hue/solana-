@@ -1,4 +1,0 @@
-{
-  "autorespawn": true,
-  "run": ["python", "-c", "import keepalive; keepalive.run_ping_service()"]
-}
