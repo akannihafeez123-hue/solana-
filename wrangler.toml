@@ -1,0 +1,20 @@
+name = "quantum-trading-bot"
+main = "src/index.js"
+compatibility_date = "2025-01-15"
+
+[vars]
+DEFAULT_TRADING_MODE = "quantum"
+BASE_CONFIDENCE_THRESHOLD = "85"
+TELEGRAM_MIN_CONFIDENCE = "90"
+TELEGRAM_COOLDOWN_MINUTES = "5"
+SCAN_INTERVAL_SEC = "30"
+KEEPALIVE_URL = ""
+
+[routes]
+# Uncomment to bind to a custom domain once you set it up
+# pattern = "quantum.yourdomain.com"
+# zone_name = "yourdomain.com"
+
+[triggers]
+# Run every 5 minutes during active market hours if you want scheduled scans
+crons = ["*/5 * * * *"]
