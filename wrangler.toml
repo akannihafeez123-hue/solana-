@@ -1,4 +1,4 @@
-name = "quantum-trading-bot"
+name = "business"
 main = "index.js"
 compatibility_date = "2025-01-15"
 
