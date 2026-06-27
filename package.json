@@ -1,0 +1,22 @@
+{
+  "name": "enhanced-quantum-trading-system",
+  "version": "13.0.0",
+  "description": "Enhanced Quantum Institutional Trading System - Bitget Edition",
+  "main": "quantum.js",
+  "scripts": {
+    "start": "node quantum.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mathjs": "^12.0.0",
+    "moment": "^2.29.4",
+    "winston": "^3.11.0",
+    "ws": "^8.14.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
