@@ -1,0 +1,19 @@
+{
+  "name": "quantum-institutional-trading",
+  "version": "13.0.0",
+  "description": "APEX SWING MASTER — Ultra Institutional Trading Signal Engine",
+  "main": "Quantum-world.js",
+  "scripts": {
+    "start": "node Quantum-world.js",
+    "dev": "node Quantum-world.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "ws": "^8.18.0"
+  }
+}
